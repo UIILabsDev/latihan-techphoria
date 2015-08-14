@@ -1,0 +1,48 @@
+ Tinggi
+Batas Waktu 	1 detik
+Batas Memori 	128MB
+Deskripsi
+
+Disuatu pagi yang cerah Pak Ganesh mengajak gajah-gajahnya jalan-jalan. Ia membariskan N gajah-gajahnya yang masing-masing memiliki tinggi yang berbeda antara 1 hingga N.
+
+Sambil menuju ke tempat makan, Pak Ganesh dan gajah-gajahnya melewati rumah Pak Dengklek. Pak Dengklek melihat barisan gajah Pak Ganesh dan menemukan suatu fakta menarik. Bila ia mengambil sebuah segmen dari barisan gajah Pak Ganesh, ia bisa menemukan seekor gajah tertinggi pada segmen tersebut. Dan apabila ia mengambil segmen berbeda, ia masih mungkin mendapatkan gajah yang sama yang menjadi gajah tertinggi pada segmen tersebut. Perhatikan contoh berikut
+
+5 3 2 4 1
+
+Pada contoh diatas, barisan Pak Ganesh terdiri dari 5 gajah. Gajah dengan tinggi 5 berada pada posisi paling depan barisan, gajah dengan tinggi 3 berada pada posisi ke-2 paling depan barisan, gajah dengan tinggi 2 berada pada posisi ke-3 paling depan barisan dan seterusnya.
+
+Apabila kita mengambil segmen barisan dari gajah ke-2 hingga gajah ke-5 kita mendapat segmen
+3 2 4 1
+Dimana gajah dengan tinggi 4 adalah gajah tertinggi pada segmen tersebut.
+
+Sedangkan apabila kita mengambil segmen barisan dari gajah ke-3 hingga gajah ke-4 kita mendapat segmen
+2 4
+Dimana gajah dengan tinggi 4 masih menjadi gajah tertinggi pada segment tersebut.
+
+Pak Dengklek jadi penasaran, berapa banyak kombinasi segmen dimana suatu gajah menjadi gajah tertinggi pada segmen tersebut?
+Format Masukan
+
+Baris pertama berisi N, banyaknya gajah pada barisan Pak Ganesh.
+Baris kedua berisi N buah bilangan yang masing-masing adalah tinggi gajah Pak Ganesh, terurut berdasarkan posisi gajah pada barisan.
+Format Keluaran
+
+N baris bilangan yang merupakan banyaknya kombinasi segmen dimana gajah ke-i adalah gajah tertinggi pada segmen tersebut.
+Contoh Masukan
+
+5 3 2 4 1
+
+Contoh Keluaran
+
+5
+2
+1
+6
+1
+
+Penjelasan
+
+Gajah ke-1 menjadi gajah tertinggi pada segmen (1-1), (1-2), (1-3), (1-4), (1-5)
+Gajah ke-2 menjadi gajah tertinggi pada segmen (2-2), (2-3)
+Gajah ke-3 menjadi gajah tertinggi pada segmen (3-3)
+Gajah ke-4 menjadi gajah tertinggi pada segmen (2-4), (2-5), (3-4), (3-5), (4-4), (4, 5)
+Gajah ke-5 menjadi gajah tertinggi pada segmen (5-5)

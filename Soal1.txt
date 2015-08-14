@@ -1,0 +1,31 @@
+ Tambang Emas
+Batas Waktu 	1 detik
+Batas Memori 	32 MB
+Deskripsi
+
+Pak Dengklek yang lelah dengan semua kelakukan bebek-bebeknya tersebut mulai mencari kesibukan baru. Kini ia mulai bermain game komputer. Tugas utama dari permainan tersebut adalah menambang emas. Pak Dengklek harus mendapatkan emas sebanyak-banyaknya. Tetapi untuk mendapatkan dan menjaga emas yang ditambang, ia harus membuat sebuah sebuah forcefield yaitu sebuah garis batas yang terbuat dari suatu energi khusus yang juga terdapat dalam tempat tambang emas.
+
+Peta permainan merupakan sebuah garis lurus berupa sumbu x dalam koordinat kartesian. Terdapat beberapa tambang emas, dimana dalam setiap tambang emas, masing-masing terdapat sejumlah emas dan energi. Untuk menjaga tambang emas, seseorang dapat membuat sebuah forcefield  (segmen garis tertutup yang melingkupi tambang emas), dimana membutuhkan energi sebanyak panjang dari forcefield yang akan dibuat.
+
+Pak Dengklek ingin membuat satu forcefield supaya energi yang diperoleh dari tambang emas yang dijaga cukup untuk membuat forcefield tersebut, dan jumlah emas yang diperoleh dari tambang emas yang dijaga adalah semaksimal mungkin. Buatlah sebuah program yang akan membantu Pak Dengklek menemukan jumlah emas maksimal yang dapat ia peroleh.
+Format Masukan
+
+Baris pertama berisi sebuah bilangan bulat N, banyaknya tambang emas. N baris berikutnya terdiri dari 3 bilangan bulat  xi, gi, di, masing-masing merupakan koordinat tambang, banyaknya emas, dan besar energi yang terdapat dalam tambang tersebut. Semua xi adalah bilangan berbeda dan diberikan dalam kondisi terurut menaik.
+Format Keluaran
+
+Output berupa sebuah bilangan, maksimal emas yang dapat Pak Dengklek peroleh.
+Contoh Masukan
+
+4
+0 5 1
+1 7 2
+4 4 1
+7 15 1
+
+Contoh Keluaran
+
+16
+
+Penjelasan
+
+Pada contoh di atas, Pak Dengklek akan mengambil tambang emas ke-1, 2, dan 3.

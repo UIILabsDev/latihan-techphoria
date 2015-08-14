@@ -1,0 +1,44 @@
+
+Koordinat Persegi
+Batas Waktu 	1 detik
+Batas Memori 	64 MB
+Deskripsi
+
+Pada sebuah bidang kartesian, terdapat beberapa titik koordinat. Dari titik koordinat tersebut dapat membentuk persegi-persegi. Hitunglah jumlah persegi yang dapat dibentuk pada bidang tersebut.
+Format Masukan
+
+Baris pertama terdiri dari 1 bilangan bulat T (1 ≤ T ≤ 200) yang menunjukkan jumlah kasus.
+
+Untuk setiap kasus, baris pertama terdiri dari sebuah bilangan bulat L (4 < L ≤ 10.000) yang merupakan jumlah titik koordinat.
+
+Sebanyak L baris berikutnya terdiri dari 2 bilangan bulat X (0 ≤ X < 100) dan Y (0 ≤ Y < 100)  yang merupakan koordinat titik.
+Format Keluaran
+
+Untuk masing–masing kasus uji cetak baris "Case #x: y", dengan x adalah nomor kasus uji dan y adalah jawaban dari kasus uji berupa sebuah bilangan bulat yang menunjukkan jumlah persegi yang dapat dibentuk.
+Contoh Masukan
+
+2
+12
+8 0
+4 0
+0 0
+0 4
+0 8
+4 1
+3 1
+8 8
+4 4
+9 1
+3 2
+4 2
+4
+0 0
+0 1
+1 1
+1 0
+
+Contoh Keluaran
+
+Case #1: 3
+Case #2: 1
+

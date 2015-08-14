@@ -1,0 +1,35 @@
+
+Elemen Maksimal
+Batas Waktu 	1s
+Batas Memori 	32MB
+Deskripsi
+
+Diberikan N buah bilangan, temukanlah nilai terbesar di antara N buah bilangan tersebut!
+Format Masukan
+
+Baris pertama berisi sebuah angka, yaitu N (1 <= N <= 1000).
+N baris berikutnya berisi sebuah angka, Ai (1 <= Ai <= 10^9).
+Format Keluaran
+
+Sebuah angka, yaitu angka terbesar.
+Contoh Masukan 1
+
+4
+10
+2
+9
+3
+
+Contoh Keluaran 1
+
+10
+
+Contoh Masukan 2
+
+1
+9
+
+Contoh Keluaran 2
+
+9
+

@@ -1,0 +1,32 @@
+
+Jumlah Kata
+Batas Waktu 	1s
+Batas Memori 	8MB
+Deskripsi
+
+Diberikan sebuah kalimat yang terdiri hanya dari karakter 'a' .. 'z' dan spasi (white space, ' '). Sebuah kata didefinisikan sebagai satu atau beberapa karakter yang tersusun berdampingan tanpa diselingi oleh spasi. Tentukanlah ada berapa banyak kata dalam input yang diberikan!
+Format Masukan
+
+Hanya akan terdapat sebuah baris, yaitu kalimat yang diberikan (terdiri dari 'a'...'z' dan spasi). Input maksimal berisi 1000 karakter.
+Format Keluaran
+
+Sebuah angka yang menyatakan jumlah kata yang terkandung dalam kalimat yang diberikan.
+Contoh Masukan 1
+
+hai kamu lagi coding ya
+
+Contoh Keluaran 1
+
+5
+
+Contoh Masukan 2
+
+   ada  spasi di   depan dan    belakang     
+
+Contoh Keluaran 2
+
+6
+
+Penjelasan
+
+Pada contoh 1, jumlah kata yang terlihat jelas ada 5 buah. Sedangkan pada contoh ke-2, perhatikan bahwa antarkata dapat dipisah lebih dari 1 spasi. Begitu pula bahwa bisa ada spasi yang tercetak di depan maupun akhir kalimat.
